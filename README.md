@@ -306,7 +306,7 @@ Raw dataset files (`train_transaction.csv`, etc.) are excluded from this repo du
 
 This work has been documented in an IEEE-format conference paper:
 
-> **Rohan Thakur**
+> **Varnit sainir**
 > *"AI-Powered Fraud Detection & Prevention Ecosystem with Robotic Process Automation (RPA),"*
 > Manuscript prepared for IEEE Conference submission, Department of Computer Science & Engineering, Graphic Era Hill University, Dehradun, 2026.
 
@@ -318,7 +318,7 @@ The full project report (`Project_Report.docx`) and paper manuscript (`Fraud_Det
 
 | Name | Roll No.
 |---|---|---|
-| **Rohan Thakur** | 2318035 
+| **Varnit saini** | 2219887 
 
 
 **Project Guide:** Mrs. Neha Pokhriyal, Assistant Professor, Department of CSE
