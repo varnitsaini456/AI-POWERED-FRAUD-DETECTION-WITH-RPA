@@ -306,7 +306,7 @@ Raw dataset files (`train_transaction.csv`, etc.) are excluded from this repo du
 
 This work has been documented in an IEEE-format conference paper:
 
-> **Varnit sainir**
+> **Varnit saini**
 > *"AI-Powered Fraud Detection & Prevention Ecosystem with Robotic Process Automation (RPA),"*
 > Manuscript prepared for IEEE Conference submission, Department of Computer Science & Engineering, Graphic Era Hill University, Dehradun, 2026.
 
