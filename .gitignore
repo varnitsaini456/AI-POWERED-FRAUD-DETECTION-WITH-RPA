@@ -1,0 +1,152 @@
+# =============================================================================
+# .gitignore — AI-Powered Fraud Detection Ecosystem
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+.Python
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+.env.local
+.env.*.local
+
+# -----------------------------------------------------------------------------
+# Jupyter / IPython
+# -----------------------------------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# -----------------------------------------------------------------------------
+# Node.js / React (dashboard)
+# -----------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Build output
+dashboard/build/
+dashboard/dist/
+dashboard/.next/
+dashboard/out/
+
+# -----------------------------------------------------------------------------
+# Large data files (IEEE-CIS dataset — NOT committed to git)
+# -----------------------------------------------------------------------------
+Data/
+*.csv
+!model_comparison_results.csv
+
+# -----------------------------------------------------------------------------
+# Trained ML models (large binary files)
+# -----------------------------------------------------------------------------
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+ml/fraud_detection_xgboost.json
+ml/fraud_detection_xgboost.pkl
+ml/feature_names.pkl
+ml/*.model
+
+# -----------------------------------------------------------------------------
+# RPA runtime artefacts (generated at runtime)
+# -----------------------------------------------------------------------------
+rpa/fraud_cases.db
+rpa/alerts/
+rpa/reports/
+rpa/pipeline_log.txt
+rpa/*.db
+rpa/*.log
+
+# -----------------------------------------------------------------------------
+# IDE / Editor
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------------------------------------------------------
+# Claude / AI tooling
+# -----------------------------------------------------------------------------
+.claude/
+.anthropic/
+
+# -----------------------------------------------------------------------------
+# OS junk
+# -----------------------------------------------------------------------------
+$RECYCLE.BIN/
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+# -----------------------------------------------------------------------------
+# Logs and temp
+# -----------------------------------------------------------------------------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# -----------------------------------------------------------------------------
+# Testing / coverage
+# -----------------------------------------------------------------------------
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# -----------------------------------------------------------------------------
+# KEEP these (explicitly tracked)
+# -----------------------------------------------------------------------------
+!Project_Report.docx
+!Fraud_Detection_Paper.docx
+!diagrams/*.png
+!screenshot/*.png
+!logos/*.jpeg
+!logos/*.png
+!model_comparison.png
+!confusion_matrices*.png
+!shap_beeswarm.png
+!shap_feature_importance.png
+
+Final year project/build_paper.js
+Final year project/build_project_report.js
